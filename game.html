@@ -1,0 +1,31 @@
+<!DOCTYPE html> <!-- Caleb Carroll-->
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+   <p> <img id="UAT"src="UAT.png"><!-- This is to add the UAT logo -->
+    <h2> Assignment 2.1: The Building Blocks for Javascript - Functions</h2>
+    <link rel="stylesheet" href="main.css"><!-- This is to import the CSS file -->
+    <script src="code.js" ></script><!-- This is to import the JS code -->
+</head>
+<body>
+
+    <h1 style="color: crimson;" style="font-weight: 100;"><!-- This is changing the color and the boldness of the font -->
+     Welcome to the BlackJack table
+    </h1> 
+        <h2>Dealer: <span id="Dealer-sum"></span></h2> <!-- This will populate what the dealers card sum is -->
+        <div id="dealer-cards"><!-- This will show what cards the dealer has -->
+            <img id="hidden" src="./cards/BACK.png">
+        </div> 
+
+        <h2>You: <span id="your-sum"></span></h2> <!-- This will populate what your card sum is -->
+        <div id="your-cards"></div> <!-- This will show what cards you have -->
+
+        <br>
+        <button id="hit">Hit</button><!-- These ae the buttons to play the game -->
+        <button id="stay">Stay</button>
+        <p id="results"></p><!-- This will the player if they won or lost -->
+
+    </body>
+</html>
